@@ -19,12 +19,40 @@
         <members>AccountTrigger</members>
         <name>ApexTrigger</name>
     </types>
+
+    <!-- Custom Objects -->
     <types>
         <members>Account</members>
         <members>Contact</members>
         <members>AccountContactRelation</members>
         <name>CustomObject</name>
-	</types>
+    </types>
+
+    <!-- Custom Fields -->
+    <types>
+        <members>*</members>
+        <name>CustomField</name>
+    </types>
+
+    <!-- Global Value Sets -->
+    <types>
+        <members>*</members>
+        <name>GlobalValueSet</name>
+    </types>
+
+    <!-- Layouts -->
+    <types>
+        <members>*</members>
+        <name>Layout</name>
+    </types>
+
+    <!-- Lightning Pages (FlexiPages) -->
+    <types>
+        <members>Account_Record_Page</members>
+        <members>Contact_Record_Page</members>
+        <members>Keobiz_Test_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
 
     <!-- Custom Tabs -->
     <types>
@@ -36,31 +64,6 @@
     <types>
         <members>KeobizTest</members>
         <name>CustomApplication</name>
-    </types>
-
-    <!-- Custom Fields -->
-    <types>
-        <members>*</members>
-        <name>CustomField</name>
-    </types>
-
-    <!-- FlexiPages (Lightning Pages) -->
-    <types>
-        <members>Account_Record_Page</members>
-        <members>Contact_Record_Page</members>
-        <members>Keobiz_Test_UtilityBar</members>
-        <name>FlexiPage</name>
-    </types>
-
-    <types>
-        <members>*</members>
-    	<name>GlobalValueSet</name>
-	</types>
-
-    <!-- Layouts -->
-    <types>
-        <members>*</members>
-        <name>Layout</name>
     </types>
 
     <!-- Settings -->
